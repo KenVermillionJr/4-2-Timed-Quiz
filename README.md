@@ -1,4 +1,4 @@
-# 🧠 Timed Quiz — Starter & Bootstrap Versions
+# Timed Quiz — Starter & Bootstrap Versions
 
 Two parallel implementations with clean separation of concerns.  
 Your goal: build and customize a **timed 10-question JavaScript quiz** that tracks score, runs a countdown, and displays results at the end.
