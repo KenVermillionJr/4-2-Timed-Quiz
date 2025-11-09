@@ -5,6 +5,9 @@ Your goal: build and customize a **timed 10-question JavaScript quiz** that trac
 
 ---
 
+## Solved
+<a href="https://kenvermillionjr.github.io/4-2-Timed-Quiz/">View Solution</a>
+
 ## 🎯 Goal
 
 Create a quiz game that:
