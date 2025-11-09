@@ -243,7 +243,7 @@
       timerId = null;
     }
     // Re-render UI to reflect new time
-    // render(); // REVIEW
+    // render(); // error in starter script
     renderCountdownOnly();
   }
 
