@@ -194,8 +194,6 @@
     return;
   }
 
-  // resultModal.show();
-
   // -----------------------------
   // 5) HANDLERS
   // -----------------------------
@@ -260,7 +258,7 @@
     // TODO(16): stop the timer if it's still running
     // if (timerId) { clearInterval(timerId); timerId = null; }
     if (timerId) {
-      clearInterval(tick);
+      clearInterval(timerId);
       timerId = null;
     }
     // TODO(17): fill in finalScore and finalTime (e.g., "7 / 10" and "12s")
@@ -284,7 +282,8 @@
   }
 
   function quit() {
-    alert(`Thanks for playing!`);
+    // alert(`Thanks for playing!`);
+    // do nothing, modal dismissed
   }
 
   // -----------------------------
@@ -302,7 +301,7 @@
   // TODO(20): implement restart click handler
   // restartBtn.addEventListener('click', ???);
   restartBtn.addEventListener('click', restart);
-  quitBtn.addEventListener('click', restart);
+  quitBtn.addEventListener('click', quit);
 
   // Initial render + timer start
   // TODO(21): call render() and startTimer()
