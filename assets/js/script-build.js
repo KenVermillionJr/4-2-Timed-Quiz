@@ -264,7 +264,8 @@
     // TODO(17): fill in finalScore and finalTime (e.g., "7 / 10" and "12s")
     // finalScore.textContent = ???
     // finalTime.textContent = ???
-    finalScore.textContent = score;
+    const scorePct = score / total * 100
+    finalScore.textContent = scorePct + '%';
     finalTime.textContent = timeLeft;
 
     // Show Bootstrap modal
